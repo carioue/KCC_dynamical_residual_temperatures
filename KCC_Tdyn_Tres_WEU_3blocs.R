@@ -1,16 +1,16 @@
 # Loading KCC package
-library(KCC,lib.loc='/KCC/packages/4.3')
+library(KCC)
 # and other useful package(s)
-library(abind,lib.loc='/KCC/packages/4.3')
+library(abind)
 library(ncdf4)
 
 
 set.seed(1)
 
-do_antnat_dec_glo = F
-do_antnat_dec_loc = F 
-do_fit_MAR_obs_glo = F
-do_fit_MAR_obs_loc = F
+do_antnat_dec_glo = T
+do_antnat_dec_loc = T 
+do_fit_MAR_obs_glo = T
+do_fit_MAR_obs_loc = T
 
 # Sample size to derive normal distributions
 Nres = 1000
@@ -19,10 +19,10 @@ sample_str = c("be", paste0("nres",1:Nres))
 year_g = 1850:2100
 ny_g = length(year_g)
 
-load("/KCC/packages/FF_CMIP6.rda")
+load("FF_CMIP6.rda")
 
 # Load EBM parameters fitted on available CMIP6 models
-load("/KCC/packages/ebm_params.rda")
+load("ebm_params.rda")
 
 #ebm_params
 
