@@ -106,7 +106,7 @@ ua_file_train = 'ua_850_day_CMIP6_all_piControl_1.3x1.3_fillmiss_CR_TRAIN.nc'
 va_file_train = 'va_850_day_CMIP6_all_piControl_1.3x1.3_fillmiss_CR_TRAIN.nc'
 
 ua_file_val = 'ua_850_day_CMIP6_all_piControl_1.3x1.3_fillmiss_CR_VAL.nc'
-va_file_val = '/va_850_day_CMIP6_all_piControl_1.3x1.3_fillmiss_CR_VAL.nc'
+va_file_val = 'va_850_day_CMIP6_all_piControl_1.3x1.3_fillmiss_CR_VAL.nc'
 
 tas_file_train = 'Tano_day_CMIP6_all_piControl_1.3x1.3_TRAIN.nc'
 tas_file_val = 'Tano_day_CMIP6_all_piControl_1.3x1.3_VAL.nc'
