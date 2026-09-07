@@ -7,6 +7,9 @@
 ## UNET trained on CMIP6 pre-industrial simualtions :
 - Training_CMIP6_piCTL_all_UV850 : UNET pre-trained on CMIP6.
 
+Ensemble mean dynamical and residual estimates on annual average are on this Zenodo link : .
+The daily data used to train the UNET, as well as the daily estimates of $T_{Dyn}$ and $T_{Res}$, are not provided but can be supplied on request.
+
 ## R scripts for KCC
 - KCC_Tdyn_Tres_WEU.R : code used to compute the observational constraints with KCC on dynamical and residual temperatures. See more details on this repository for instructions on how to use the KCC package https://gitlab.com/saidqasmi/KCC ;
 - KCC_T_WEU.R : same but applied on T;
