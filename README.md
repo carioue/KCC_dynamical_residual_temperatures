@@ -7,7 +7,7 @@
 ## UNET trained on CMIP6 pre-industrial simualtions :
 - Training_CMIP6_piCTL_all_UV850 : UNET pre-trained on CMIP6.
 
-Ensemble mean dynamical and residual estimates on annual average are on this Zenodo link : .
+Ensemble mean dynamical and residual estimates on annual average are on this Zenodo link : 10.5281/zenodo.22644083.
 The daily data used to train the UNET, as well as the daily estimates of $T_{Dyn}$ and $T_{Res}$, are not provided but can be supplied on request.
 
 ## R scripts for KCC
